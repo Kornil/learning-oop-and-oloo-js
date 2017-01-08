@@ -40,9 +40,7 @@ class Proto {
 }
 
 class Obj2 extends Proto{
-  constructor(){
-    super();
-  }
+  // your code here
 }
 
 var obj2 = new Obj2();
