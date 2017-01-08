@@ -29,18 +29,22 @@ var proto = {
 
 var obj1 = Object.create(proto);
 
-obj1.greet(); // 
+obj1.greet(); // hello world
 
 // "proto" with ES6 classes
 
 class Proto {
-  greet(){ console.log('hello world!')};
+  greet(){ 
+    console.log('hello world!')
+  }
 }
+
 class Obj2 extends Proto{
   constructor(){
     super();
   }
 }
+
 var obj2 = new Obj2();
 obj2.greet(); // hello world!
 </code>
