@@ -1,7 +1,7 @@
 # learning-oop-and-oloo-js
 
 ## add methods on the global Object so every new obj(regardless of how you create it) will have it by default
-<code>
+```javascript
 // Place method inside the global Object so every new object will have that method by default
 
 Object.prototype.greet = function(){
@@ -17,10 +17,10 @@ obj2.x = "Jane";
 
 obj1.greet(); // hello John
 obj2.greet(); // hello Jane
-</code>
+```
 
 ## create a "proto" object and use it to store all methods for other objects
-<code>
+```javascript
 // create a "proto" object whith the sole purpose of providing methods to other different objectss
 
 var proto = {
@@ -47,4 +47,4 @@ class Obj2 extends Proto{
 
 var obj2 = new Obj2();
 obj2.greet(); // hello world!
-</code>
+```
