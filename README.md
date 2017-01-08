@@ -3,6 +3,7 @@
 ## add methods on the global Object so every new obj(regardless of how you create it) will have it by default
 <code>
 // Place method inside the global Object so every new object will have that method by default
+
 Object.prototype.greet = function(){
   console.log("hello "+this.x)
 }
