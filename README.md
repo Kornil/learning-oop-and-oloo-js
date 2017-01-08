@@ -31,7 +31,9 @@ var obj1 = Object.create(proto);
 
 obj1.greet(); // hello world
 
-// "proto" with ES6 classes
+/*
+  "proto" with ES6 classes
+*/
 
 class Proto {
   greet(){ 
